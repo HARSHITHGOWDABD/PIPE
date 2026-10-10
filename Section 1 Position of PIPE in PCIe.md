@@ -214,7 +214,7 @@ On the transmit side, the controller can have several sources of information:
 - Electrical-idle-related sequences
 - Compliance or loopback patterns
 
-A MUX selects which source is allowed to transmit.
+A MUX selects which source is allowed to transmit.(All of this below blocks are include in the** MAC**)
 
 ```mermaid
 flowchart TD
