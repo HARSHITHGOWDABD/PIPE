@@ -132,6 +132,11 @@ NOTE : All this power down states are controlled by the MAC(controller)
 ✅ TLPs (Transaction Layer Packets) and DLLPs (Data Link Layer Packets) can now be exchanged.
 
 ✅ Normal PCIe read/write transactions start.
+
+* L0 tx off but rx on .. equal to P0S .
+* L1 rx and rx off but clk will be active .
+* Recovery rate change hence p0 is required .
+* 
 ----
 <img width="500" height="150" alt="Screenshot 2026-10-10 234147" src="https://github.com/user-attachments/assets/eac374ca-c87e-4e9b-8298-e3ab06bbb4a7" />
 
