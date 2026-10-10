@@ -265,7 +265,7 @@ This is the most useful placement to remember for the module studied in this boo
 For Gen1/Gen2, an 8-bit character can represent either:
 
 - A normal data character
-- A special K-control character
+- A special K-control character  ---> used during link training .
 
 `TxDataK` tells the PHY encoder which kind of character is present.
 
