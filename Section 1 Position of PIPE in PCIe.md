@@ -99,7 +99,7 @@ The Logical Physical Layer is the digital, protocol-aware part of the Physical L
 It does not directly drive the differential PCIe pins.
 <img width="1280" height="813" alt="image" src="https://github.com/user-attachments/assets/00c4c9eb-0e02-4f6b-97f8-dd7cc3c9c8f1" />
 
-### NOTE : In the above diagram the mux will choose the data , if is  link training it is choose LTSSM related data if the link taring is already done we will transmit the TLPS or DLLPS  (linkup acts as a select line )
+### NOTE : In the above diagram the mux will choose the data , if it is  link training it is choose LTSSM related data if the link taraing is already done we will transmit the TLPS or DLLPS  (linkup acts as a select line ) .
 ### 1.4 PHY PCS and PMA
 
 The external or hard PHY contains the high-speed datapath.
