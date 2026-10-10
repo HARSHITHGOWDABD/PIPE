@@ -36,7 +36,7 @@ Conceptually:
 
 | PIPE state | Meaning                                         |
 | ---------- | ----------------------------------------------- |
-| P0         | PHY fully operational                           |
+| P0         | PHY fully operational                           | (tx and rx both are on data is transmitted)
 | P0s        | Light PHY power-saving state                    |
 | P1         | Deeper PHY power-saving state                   |
 | P2         | Deeper power state; unsupported by this wrapper |
