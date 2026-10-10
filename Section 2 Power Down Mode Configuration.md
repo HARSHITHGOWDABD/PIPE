@@ -516,7 +516,7 @@ mac_tx_elecidle = 1'b1;
 The wrapper shall then cause:
 
 ```verilog
-TxElecIdle = 1'b1;
+TxElecIdle = 1'b1; ---> for the power state change also their should not be any ongoing process. It should be in the idle indicated by this signal.
 ```
 
 Only after `TxElecIdle` is high may a transition into P0s or P1 be accepted.
