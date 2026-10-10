@@ -103,10 +103,12 @@ NOTE : All this power down states are controlled by the MAC(controller)
 
 
 
-* This is the LTSSM which is their inside the MAC
+* This is the LTSSM which is their inside the MAC and it is having this many number of states 
 ----
 <img width="500" height="150" alt="Screenshot 2026-10-10 234147" src="https://github.com/user-attachments/assets/eac374ca-c87e-4e9b-8298-e3ab06bbb4a7" />
 
+* So from the above picture the MAC contain the LTSSM it will initiate the power mode which we want to have it will send that information to the pipe , so pipe will simply sample that and forward it into the PHY , then PHY perform the necessary changes according to the request .. eg : if I am expecting the P0 in which both the transmitter and reciver will be on , if it is P0S only tx off and rx on like this required number of subsystem will be off based on the request .
+After changing the mode PHY sends the status to the PIPE like power mode switch is successful or unsuccessful and that information is finally moving for the MAC .. And to understand how the LTSSM and PIPE are related can be understand by above FSM 
     ```
 ## 4. Why P0 Is the Common Transition State
 
