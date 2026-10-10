@@ -26,7 +26,7 @@ PIPE power states are PHY operating states. They are not PCIe LTSSM states.
 For this wrapper:
 
 ```verilog
-localparam [1:0] P0  = 2'b00;
+localparam [1:0] P0  = 2'b00; -->(tx and rx both are on data is transmitted)
 localparam [1:0] P0S = 2'b01;
 localparam [1:0] P1  = 2'b10;
 localparam [1:0] P2  = 2'b11;
@@ -36,7 +36,7 @@ Conceptually:
 
 | PIPE state | Meaning                                         |
 | ---------- | ----------------------------------------------- |
-| P0         | PHY fully operational                           | (tx and rx both are on data is transmitted)
+| P0         | PHY fully operational                           | 
 | P0s        | Light PHY power-saving state                    |
 | P1         | Deeper PHY power-saving state                   |
 | P2         | Deeper power state; unsupported by this wrapper |
