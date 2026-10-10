@@ -103,7 +103,35 @@ NOTE : All this power down states are controlled by the MAC(controller)
 
 
 
-* This is the LTSSM which is their inside the MAC and it is having this many number of states 
+* This is the LTSSM which is their inside the MAC and it is having this many number of states
+* In the Detect mode we try to detect the presence of the rx.
+* Polling is used for symbol and bit lock .
+* In configuration we will try to exchange the configuration parameter like, link and lane number .
+* L0 is the linkup state
+* L0S , L1 and L2 are the power down state
+* L0S is the shallow power down mode and L1 and L2 are the deeper power down mode.
+* Recovery mode is for rate change and also synchronization between the tx and rx.
+* If there is no proper synchronization we quickly move for this state for the synchronization .
+* L1 ----> L0 ( link up )
+* In the detect mode we don't transmit any order set, we simply send the request to presence of the rx and PHY is having some analog circuit which will measure the charging time of the capacitor based on that it will identify whether the rx is present or not ..... that status is forwarded into the MAC hence their is no use of the transmitter in this case
+* In polling state, we are exchanging the order set hence we need to be in the P0 power state ..
+* Configuration also required to exchange of order set so P0 is required .
+* L0 is the linkup both the transmitter and the rx will be on .
+* What happens in Link-Up (L0)?
+
+✅ Both transmitter and receiver are synchronized.
+
+✅ Lane width is finalized (x1, x4, x8, x16, etc.).
+
+✅ Link speed is finalized (Gen1/Gen2/Gen3...).
+
+✅ Scrambling is enabled for normal data traffic.
+
+✅ Data Link Layer becomes active.
+
+✅ TLPs (Transaction Layer Packets) and DLLPs (Data Link Layer Packets) can now be exchanged.
+
+✅ Normal PCIe read/write transactions start.
 ----
 <img width="500" height="150" alt="Screenshot 2026-10-10 234147" src="https://github.com/user-attachments/assets/eac374ca-c87e-4e9b-8298-e3ab06bbb4a7" />
 
