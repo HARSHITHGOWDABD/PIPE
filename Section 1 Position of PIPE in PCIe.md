@@ -273,7 +273,7 @@ For Gen1/Gen2, an 8-bit character can represent either:
 TxDataK = 0: encode TxData as a data character
 TxDataK = 1: encode TxData as a K-control character
 ```
-
+### Note : for the control character we won't perform the scrambling it is performed only for the data character .
 `TxDataK` does **not** directly identify TLP, DLLP, or ordered set.
 
 The sequence of data and control characters identifies the stream. For example, framing/control symbols help the receiving logical layer distinguish packet and ordered-set traffic.
