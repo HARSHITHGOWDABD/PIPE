@@ -642,6 +642,10 @@ stateDiagram-v2
     ST_FAULT --> ST_FAULT : Reset required
 
 ```
+
+
+
+
 verilog
 // ============================================================================
 // POWER-STATE MANAGEMENT
