@@ -105,7 +105,7 @@ NOTE : All this power down states are controlled by the MAC(controller)
 
 * This is the LTSSM which is their inside the MAC
 ----
-<img width="219" height="88" alt="Screenshot 2026-10-10 234147" src="https://github.com/user-attachments/assets/eac374ca-c87e-4e9b-8298-e3ab06bbb4a7" />
+<img width="500" height="150" alt="Screenshot 2026-10-10 234147" src="https://github.com/user-attachments/assets/eac374ca-c87e-4e9b-8298-e3ab06bbb4a7" />
 
     ```
 ## 4. Why P0 Is the Common Transition State
