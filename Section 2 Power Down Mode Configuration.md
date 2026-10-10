@@ -95,6 +95,8 @@ P1  -> P0 -> P2
 P2  -> P0 -> P1
 ```
 
+
+NOTE : All this power down states are controlled by the MAC(controller)
 ---
 
 ## 4. Why P0 Is the Common Transition State
