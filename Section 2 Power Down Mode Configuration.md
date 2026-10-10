@@ -27,9 +27,9 @@ For this wrapper:
 
 ```verilog
 localparam [1:0] P0  = 2'b00; -->(tx and rx both are on data is transmitted)
-localparam [1:0] P0S = 2'b01;
-localparam [1:0] P1  = 2'b10;
-localparam [1:0] P2  = 2'b11;
+localparam [1:0] P0S = 2'b01; -->(tx off rx is still on)
+localparam [1:0] P1  = 2'b10; -->(both tx and rx is off but clk is still running )
+localparam [1:0] P2  = 2'b11; -->(here the clk is also off but this will be enabled if we only having one extra axc.. clk)
 ```
 
 Conceptually:
