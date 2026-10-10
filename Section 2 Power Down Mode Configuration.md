@@ -624,6 +624,7 @@ loopback_mode = 1 -> condition fails
 ---
 
 ```mermaid
+
 stateDiagram-v2
 
     [*] --> ST_RESET
@@ -639,6 +640,9 @@ stateDiagram-v2
     ST_WAIT --> ST_FAULT : Timeout
 
     ST_FAULT --> ST_FAULT : Reset required
+
+
+
 
 
 
