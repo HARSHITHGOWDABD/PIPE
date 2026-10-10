@@ -273,7 +273,9 @@ For Gen1/Gen2, an 8-bit character can represent either:
 TxDataK = 0: encode TxData as a data character
 TxDataK = 1: encode TxData as a K-control character
 ```
-### Note : for the control character we won't perform the scrambling it is performed only for the data character .
+### Note : for the control character we won't perform the scrambling it is performed only for the data character Scrambling means intentionally changing the transmitted data pattern using a predefined algorithm before sending it over a communication link. And input and the output for the PIPE is scrambled data . Then physical layer start with the encoding and this encoding is independent of control or the data character .
+
+The receiver uses the same algorithm to descramble the data and recover the original bits.
 `TxDataK` does **not** directly identify TLP, DLLP, or ordered set.
 
 The sequence of data and control characters identifies the stream. For example, framing/control symbols help the receiving logical layer distinguish packet and ordered-set traffic.
