@@ -532,7 +532,7 @@ Required sequence:
 6. Wrapper drives PowerDown = requested state.
 7. PHY performs the power transition.
 ```
-
+## Note : for power state change the loopback should also disabled .
 If `mac_powerdown` requests P0s or P1 while `TxElecIdle == 0`, the request shall be blocked.
 
 ### 11.2 Returning to P0
