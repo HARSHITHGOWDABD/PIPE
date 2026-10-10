@@ -623,7 +623,6 @@ loopback_mode = 1 -> condition fails
 
 ---
 
-```mermaid
 
 ```mermaid
 stateDiagram-v2
@@ -642,7 +641,8 @@ stateDiagram-v2
 
     ST_FAULT --> ST_FAULT : Reset required
 
-```verilog
+```
+verilog
 // ============================================================================
 // POWER-STATE MANAGEMENT
 // Extracted from: pcie_pipe_mac_if_v3
