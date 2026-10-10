@@ -1,4 +1,4 @@
-# Chapter 1 — Positions of PIPE Interface in a Complete PCIe System Harshith
+# Chapter 1 — Positions of PIPE Interface in a Complete PCIe System 
 
 ## Introduction
 
