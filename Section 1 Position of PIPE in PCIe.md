@@ -339,7 +339,7 @@ Control:  K-character ──────────→ 8b/10b encoder → Seria
 
 ### Important Exception
 
-Not every D-character is scrambled. Data characters in certain sequences, such as **TS1/TS2 Ordered Sets** and the **Compliance Pattern**, are transmitted without scrambling.
+Not every D-character is scrambled. Data characters in certain sequences, such as **TS1/TS2 Ordered Sets** and the **Compliance Pattern**, are transmitted without scrambling.(Training sequence-1 / Training sequence -2 )
 
 Control characters remain unscrambled so that symbols such as `COM`, `STP`, `SDP`, and `END` can be reliably recognized.
 
