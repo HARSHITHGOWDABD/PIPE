@@ -167,7 +167,7 @@ For a conventional one-lane, 8-bit Gen1/Gen2 interface, important transmit signa
 
 ```verilog
 TxData[7:0]
-TxDataK
+TxDataK   --> to diffrenciate between the data or the control signal
 TxElecIdle
 TxCompliance
 ```
