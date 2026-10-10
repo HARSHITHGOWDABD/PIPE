@@ -41,7 +41,9 @@ flowchart TD
 ```
 
 On transmission, information moves from top to bottom. On reception, it moves from bottom to top.
-
+### NOTE : Physical layer consists of 2 sub layer 
+        1.PCS -->handels digital part of physical layer 
+        2.PMA -->handels Analog  part of physical layer 
 ### 1.1 Transaction Layer
 
 The Transaction Layer creates and consumes **Transaction Layer Packets**, or TLPs.
