@@ -104,10 +104,7 @@ NOTE : All this power down states are controlled by the MAC(controller)
 
 
 * This is the LTSSM which is their inside the MAC
-
-
-
-   ```
+    ```
 ## 4. Why P0 Is the Common Transition State
 
 P0 is the normal operational PHY state.
