@@ -12,6 +12,7 @@ RECOVERY_RCVRCFG
 RECOVERY_SPEED
 RECOVERY_IDLE
 ```
+<img width="454" height="238" alt="Screenshot 2026-10-11 130614" src="https://github.com/user-attachments/assets/b0af6825-ce5d-423b-8ff9-268601b973e3" />
 
 `Recovery.Equalization` is not required for the Gen1/Gen2 path, and lane-to-lane deskew is not required for the `x1` implementation.
 
