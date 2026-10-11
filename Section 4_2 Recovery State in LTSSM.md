@@ -1,4 +1,4 @@
-For your Gen1/Gen2 implementation, the best reference model is the PCIe 2.x Recovery state machine. In that generation, Recovery has four relevant substates:
+For your Gen1/Gen2 implementation, the best reference model is the PCIe 2.x Recovery state machine. In that generation, Recovery has four relevant substates :
 
 ```text
 Recovery.RcvrLock
