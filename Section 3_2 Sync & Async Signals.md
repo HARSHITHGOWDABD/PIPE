@@ -2,7 +2,7 @@
 
 Scope: `pcie_pipe_mac_if_v3`, one lane, 8-bit original PIPE, PHY-generated `pclk`, P0/P0s/P1. This is an implementation reference, not a replacement for the PIPE specification or the target PHY datasheet.
 
-<img width="383" height="191" alt="Screenshot 2026-10-11 123354" src="https://github.com/user-attachments/assets/5b3a3ea3-fc25-4944-b87b-50298facaf31" />
+<img width="600" height="250" alt="Screenshot 2026-10-11 123354" src="https://github.com/user-attachments/assets/5b3a3ea3-fc25-4944-b87b-50298facaf31" />
 
 ## PIPE clocking rule
 
