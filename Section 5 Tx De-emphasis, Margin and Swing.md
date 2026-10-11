@@ -8,7 +8,7 @@ Although all three affect transmitter behavior, they operate on fundamentally di
 * `TxMargin` controls the **overall transmitter voltage level** and is primarily associated with electrical margin testing.
 * `TxSwing` selects the broad **full-swing or low-swing operating family**.
 
-These controls should not be treated as interchangeable amplitude settings. Correct PHY control requires understanding whether the objective is channel-loss compensation, absolute voltage adjustment, or selection of the transmitter swing family.
+These controls should not be treated as interchangeable amplitude settings. Correct PHY control requires understanding whether the objective is channel-loss compensation, absolute voltage adjustment, or selection of the transmitter swing family .
 
 ## Transmitter Signal-Integrity Context
 
