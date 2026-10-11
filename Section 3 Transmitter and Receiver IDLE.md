@@ -32,7 +32,7 @@ B -> A
 
 <img width="600" height="190" alt="Screenshot 2026-10-11 110012" src="https://github.com/user-attachments/assets/9122d9bc-32f8-467c-ae62-eb98397f82fd" />
 
-
+## NOTE : either tx or rx will be in the ideal state based on the power state .
 Device A can therefore stop transmitting toward Device B while Device B continues transmitting toward Device A.
 
 This independence requires Device A to maintain two distinct pieces of Electrical Idle information:
