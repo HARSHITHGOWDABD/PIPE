@@ -3,7 +3,7 @@
 Scope: PCIe Gen1/Gen2, x1, 8b/10b, MAC + LTSSM + PIPE + PHY architecture. This sheet focuses on normal non-compliance Loopback behavior and the current `pcie_pipe_mac_if_v3` wrapper.
 
 <img width="536" height="286" alt="Screenshot 2026-10-11 172404" src="https://github.com/user-attachments/assets/89d3b07b-91a1-4714-b887-cfaadd74de9e" />
-
+In this mode the transmitter working in the normal mode but the receiver in the loopback mode 
 
 
 ## 1. Main idea
