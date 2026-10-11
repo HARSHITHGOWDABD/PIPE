@@ -1,6 +1,6 @@
 # PCIe PIPE Signal Usage
 
-The following table summarizes the PIPE signals used in the `pcie_pipe_mac_if_v3` module.
+The following table summarizes the PIPE signals used in the `pcie_pipe_mac_if_v3`  module.
 
 ## PIPE Signal Summary
 
