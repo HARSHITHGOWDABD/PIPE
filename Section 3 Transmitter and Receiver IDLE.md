@@ -30,6 +30,9 @@ A -> B
 B -> A
 ```
 
+<img width="452" height="115" alt="Screenshot 2026-10-11 110012" src="https://github.com/user-attachments/assets/9122d9bc-32f8-467c-ae62-eb98397f82fd" />
+
+
 Device A can therefore stop transmitting toward Device B while Device B continues transmitting toward Device A.
 
 This independence requires Device A to maintain two distinct pieces of Electrical Idle information:
