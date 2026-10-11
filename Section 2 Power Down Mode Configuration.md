@@ -136,7 +136,8 @@ NOTE : All this power down states are controlled by the MAC(controller)
 * L0 tx off but rx on .. equal to P0S .
 * L1 rx and rx off but clk will be active .
 * Recovery rate change hence p0 is required .
-* 
+  <img width="277" height="154" alt="Screenshot 2026-10-11 095609" src="https://github.com/user-attachments/assets/e3e83531-800d-4905-afc3-8e60dc3ca0a0" />
+
 ----
 <img width="500" height="150" alt="Screenshot 2026-10-10 234147" src="https://github.com/user-attachments/assets/eac374ca-c87e-4e9b-8298-e3ab06bbb4a7" />
 
