@@ -627,7 +627,12 @@ The LTSSM can interpret both observations according to the requirements of the c
 
 <img width="700" height="300" alt="Screenshot 2026-10-11 120026" src="https://github.com/user-attachments/assets/6770de6a-b880-4a26-bfbc-524a55fff034" />
 
-
+* In the recovery.rcvr lock we will exchange the order set TS1 with the other device .
+* And we advertise the gen that we support, and also, we need the speed change or not .
+* In the training order set one of the bit represents to GEN notice bit 7 is for gen change .
+* After the rate change request we are moving to receiver config here we will ack the speed change.
+* In the reciver.conging it is TS2 .
+ 
 
 
 ## `Recovery.Speed`
