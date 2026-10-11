@@ -13,6 +13,11 @@ RECOVERY_SPEED
 RECOVERY_IDLE
 ```
 <img width="454" height="238" alt="Screenshot 2026-10-11 130614" src="https://github.com/user-attachments/assets/b0af6825-ce5d-423b-8ff9-268601b973e3" />
+<img width="722" height="490" alt="image" src="https://github.com/user-attachments/assets/1e165f20-8e42-4b3d-b22c-5a9e98757dc8" />
+
+`Rate change` will happen in the recovery phase of the LTSSM each state having its own purpose , we can enter into this recovery state through L0 , L0S and L1 . And in some of the cases we need to perform the resynchronization that process
+does not go through all the detect, polling config , This resynchorization will be done between this L0 and recovery only ,
+
 
 `Recovery.Equalization` is not required for the Gen1/Gen2 path, and lane-to-lane deskew is not required for the `x1` implementation.
 
