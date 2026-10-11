@@ -136,6 +136,8 @@ NOTE : All this power down states are controlled by the MAC(controller)
 * L0 tx off but rx on .. equal to P0S .
 * L1 rx and rx off but clk will be active .
 * Recovery rate change hence p0 is required .
+
+  ### NOTE : All the process like loopback , rate change , power state , recovery is phystatus is high indicate it is done .
   <img width="277" height="154" alt="Screenshot 2026-10-11 095609" src="https://github.com/user-attachments/assets/e3e83531-800d-4905-afc3-8e60dc3ca0a0" />
 
 ----
