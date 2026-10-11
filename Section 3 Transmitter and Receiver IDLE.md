@@ -625,6 +625,11 @@ represent different types of information.
 
 The LTSSM can interpret both observations according to the requirements of the current state. Neither should automatically be treated as a substitute for the other.
 
+<img width="548" height="217" alt="Screenshot 2026-10-11 120026" src="https://github.com/user-attachments/assets/6770de6a-b880-4a26-bfbc-524a55fff034" />
+
+
+
+
 ## `Recovery.Speed`
 
 `Recovery.Speed` is a particularly important use of Electrical Idle because the link intentionally stops signaling at the current rate before changing the physical signaling rate.
