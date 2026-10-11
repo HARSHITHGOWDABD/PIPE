@@ -1,4 +1,4 @@
-What could we improve in our RxElecIdle handling?**
+What could we improve in our RxElecIdle handling?***
 
 In the previous lecture, we described filtering the PHY’s `RxElecIdle` signal first and then passing the filtered value through a two-flop synchronizer.
 
